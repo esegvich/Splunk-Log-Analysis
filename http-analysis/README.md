@@ -42,7 +42,7 @@ index=http_lab sourcetype="json" user_agent IN ("sqlmap/1.5.1", "curl/7.68.0", "
 | stats count by user_agent
 ```
 
-![Possible scripted attacks](./Images/PossibleScsriptedAttacks.png)
+![Possible scripted attacks](./Images/PossibleScriptedAttacks.png)
 
 Finally, I found large file transfers (greater than 500 KB):
 ```spl
